@@ -2,15 +2,22 @@
 
 Our goal is to speed up web development in every area, offering faster solutions that use less compute, follow modern developer standards the demands of the growing industry.
 
-### Benchmarks of our Recent Projects.
+# Benchmark http-native vs bun vs express
 
-**Http-native** vs **Bun.js**
+Generated: 2026-04-01T13:47:31.363Z
+
+Connections: 200
+Duration: 10s
+Timeout: 2s
 
 | Engine | Scenario | RPS Mean | Latency Mean (ms) | Latency Max (ms) | Throughput (MB/s) |
 | --- | --- | ---: | ---: | ---: | ---: |
-| http-native | static | 104,820.62 | 1.90 | 29.12 | 15.98 |
-| http-native | dynamic | 56,530.68 | 3.54 | 26.69 | 8.67 |
-| http-native | opt | 67,082.48 | 2.98 | 18.94 | 11.64 |
-| bun | static | 52,402.71 | 3.81 | 11.69 | 8.19 |
-| bun | dynamic | 46,854.72 | 4.27 | 15.05 | 7.37 |
-| bun | opt | 51,216.74 | 3.90 | 13.04 | 9.08 |
+| http-native | static | 111,175.00 | 1.80 | 22.36 | 16.95 |
+| http-native | dynamic | 108,929.00 | 1.83 | 21.10 | 16.71 |
+| http-native | opt | 65,648.14 | 3.04 | 22.11 | 11.39 |
+| bun | static | 52,464.71 | 3.81 | 15.20 | 8.20 |
+| bun | dynamic | 48,552.96 | 4.12 | 12.35 | 7.64 |
+| bun | opt | 51,766.54 | 3.86 | 12.21 | 9.18 |
+| express | static | 5,559.05 | 35.90 | 7,676.78 | 1.49 |
+| express | dynamic | 5,621.90 | 35.51 | 7,106.52 | 1.51 |
+| express | opt | 5,640.26 | 35.39 | 6,794.13 | 1.63 |
